@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: aqua; */
+  height: 100vh;
+}
+.sidebar {
+  width: 70px;
+  height: 100vh;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.add_icon {
+  padding-top: 10px;
+  width: 40px;
+}
+.main_body {
+  display: flex;
+  flex-direction: row;
+}
+.main_content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 20px;
+  width: 100%;
+}
+.add_note {
+  width: 100%;
+}
+.add_note form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.card_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.card {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+  width: 380px;
+  height: 200px;
+  text-align: justify;
+  font-size: 20px;
+}

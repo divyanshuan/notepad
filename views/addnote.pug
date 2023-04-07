@@ -1,0 +1,13 @@
+extends sidebar.pug
+
+block style 
+    title  Add Notes
+    link(rel="stylesheet", href="/css/main.css")
+
+
+block body
+    .add_note
+        form(action="/notes/add-notes" method='POST') 
+            textarea#mytextarea(name="notetext", cols="150", rows="20")
+            input(type="submit", value="Submit")
+

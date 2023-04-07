@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+
+        block style 
+        title Document
+
+    body
+        .main_body
+            .sidebar
+                a(href="/notes/add-notes") 
+                    img.add_icon(src="https://cdn-icons-png.flaticon.com/512/992/992651.png", alt="addicon")
+                a(href="/notes/my-notes") 
+                    img.add_icon(src="https://cdn-icons-png.flaticon.com/512/2599/2599636.png", alt="addicon")
+            .main_content
+                block body

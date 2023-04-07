@@ -1,0 +1,16 @@
+extends sidebar.pug 
+
+block style 
+    title My Notes
+    link(rel="stylesheet", href="/css/main.css")
+
+block body
+    if mydata.length> 0
+            .card_container
+                each eachnote in mydata
+                    .card
+                        p #{eachnote.note} 
+    else
+        h1 no notes
+
+        
